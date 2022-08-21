@@ -261,4 +261,17 @@ footer
   font-size: 0.75rem;
   text-align: center;
   padding: 10px 0;
+}
+
+/***********************
+media 
+***********************/
+@media screen and (max-width: 767px) {
+  #pickup .pickup {
+    display: flex;
+    flex-direction: column;
+  }
+  #pickup .pickup img {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */
