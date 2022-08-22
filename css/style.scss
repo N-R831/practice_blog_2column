@@ -24,7 +24,7 @@ header
     }
     .header-nav {
         display: flex;
-        justify-content: left;
+        justify-content: flex-start;
         li {
             font-size: 0.875rem;
             padding: 10px 60px 10px 0;
@@ -298,8 +298,34 @@ media
         .pickup {
             display: flex;
             flex-direction: column;
+            li {
+                width: 100%;
+                margin-bottom: 30px;
+            }
             img {
                 width: 100%;
+            }
+        }
+    }
+
+    #container {
+        flex-direction: column;
+        main {
+            width: 100%;
+        }
+
+        .side-bar {
+            width: 100%;
+            padding: 0;
+        }
+    }
+
+    #footer {
+        .content {
+            flex-direction: column;
+            .item {
+                width: 100%;
+                margin-bottom: 30px;
             }
         }
     }

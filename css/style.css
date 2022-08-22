@@ -21,7 +21,7 @@ header
 }
 #header .header-nav {
   display: flex;
-  justify-content: left;
+  justify-content: flex-start;
 }
 #header .header-nav li {
   font-size: 0.875rem;
@@ -271,7 +271,28 @@ media
     display: flex;
     flex-direction: column;
   }
+  #pickup .pickup li {
+    width: 100%;
+    margin-bottom: 30px;
+  }
   #pickup .pickup img {
     width: 100%;
+  }
+  #container {
+    flex-direction: column;
+  }
+  #container main {
+    width: 100%;
+  }
+  #container .side-bar {
+    width: 100%;
+    padding: 0;
+  }
+  #footer .content {
+    flex-direction: column;
+  }
+  #footer .content .item {
+    width: 100%;
+    margin-bottom: 30px;
   }
 }/*# sourceMappingURL=style.css.map */
