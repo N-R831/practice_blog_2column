@@ -10,6 +10,12 @@ wrapper
 /***********************
 header
 ***********************/
+#header {
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  z-index: 10;
+}
 #header .site-title {
   padding: 20px 16px;
   line-height: 1.9rem;
@@ -176,6 +182,7 @@ main&aside
   font-size: 0.875rem;
   font-weight: normal;
   text-align: left;
+  margin-top: 10px;
 }
 #container aside .archive {
   text-align: center;
@@ -256,6 +263,9 @@ footer
 }
 #footer .twitter-display #twitter-widget-0 {
   height: 315px;
+}
+#footer #twitter-widget-0 {
+  width: 100%;
 }
 #footer .copyright {
   font-size: 0.75rem;
